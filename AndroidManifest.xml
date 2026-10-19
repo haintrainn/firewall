@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="dev.local.firewall">
+    package="io.github.haintrainn.firewall">
 
     <!-- Deliberately no android.permission.INTERNET: the firewall itself never touches the network. -->
 
@@ -33,7 +33,7 @@
         <!-- Receives the binder from the Shizuku server (authority must be <package>.shizuku). -->
         <provider
             android:name=".shizuku.ShizukuBinderProvider"
-            android:authorities="dev.local.firewall.shizuku"
+            android:authorities="io.github.haintrainn.firewall.shizuku"
             android:exported="true"
             android:multiprocess="false"
             android:permission="android.permission.INTERACT_ACROSS_USERS_FULL" />

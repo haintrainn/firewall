@@ -63,7 +63,7 @@ pm grant  <package> android.permission.INTERNET   # allow
 ```
 
 The Shizuku client is a single ~340-line dependency-free file,
-[`Shizuku.java`](src/dev/local/firewall/shizuku/Shizuku.java), so it's easy to audit.
+[`Shizuku.java`](src/io/github/haintrainn/firewall/shizuku/Shizuku.java), so it's easy to audit.
 
 **Without Shizuku** the app still shows every app's state. Tapping a switch opens that app's
 permission page in Settings so you can change it there.
@@ -82,6 +82,11 @@ permission page in Settings so you can change it there.
 3. Open Firewall and tap **Allow** when it asks to use Shizuku.
 
 Shizuku has to be started again after each reboot, which is a Shizuku limitation without root.
+
+> [!IMPORTANT]
+> **Upgrading from 1.0:** version 1.1 changed the package name to `io.github.haintrainn.firewall`,
+> so Android treats it as a new app. Uninstall 1.0 first. Your Network permission choices are
+> stored by the OS, not the app, so they stay as they are.
 
 ### Verify the APK
 

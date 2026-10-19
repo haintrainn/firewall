@@ -1,4 +1,4 @@
-package dev.local.firewall;
+package io.github.haintrainn.firewall;
 
 import android.graphics.drawable.Drawable;
 

@@ -1,0 +1,2 @@
+• New package name: io.github.haintrainn.firewall. Uninstall version 1.0 before installing; it can't be updated in place.
+• Store listing metadata for F-Droid-compatible repositories.

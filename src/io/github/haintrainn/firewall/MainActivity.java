@@ -1,4 +1,4 @@
-package dev.local.firewall;
+package io.github.haintrainn.firewall;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -40,7 +40,7 @@ import java.util.Locale;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-import dev.local.firewall.shizuku.Shizuku;
+import io.github.haintrainn.firewall.shizuku.Shizuku;
 
 public final class MainActivity extends Activity implements Shizuku.Listener {
 

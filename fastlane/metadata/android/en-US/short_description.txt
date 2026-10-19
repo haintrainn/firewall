@@ -1,0 +1,1 @@
+Per-app firewall using the GrapheneOS Network permission. No VPN needed.

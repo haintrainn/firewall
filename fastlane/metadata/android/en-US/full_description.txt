@@ -1,0 +1,16 @@
+<p>GrapheneOS lets you turn off the <b>Network</b> permission for any app, which cuts that app off from every network at the OS level. Firewall puts every app's Network permission on one screen, so you can see and change them at a glance.</p>
+
+<p><b>Features</b></p>
+<ul>
+<li>Every app that requests network access, with its live Allowed / Blocked state</li>
+<li>One-tap toggling through Shizuku, using the same permission as the switch in Settings</li>
+<li>Search, filters and an optional system-app view</li>
+<li>Warns before blocking system apps</li>
+<li>Material You design that follows your wallpaper colors and dark mode</li>
+</ul>
+
+<p><b>Why no VPN?</b> The Network permission is enforced by the OS itself, so your VPN slot stays free for a real VPN, and blocked apps stay blocked even if Firewall isn't running. Firewall has no internet access of its own.</p>
+
+<p><b>Requirements:</b> GrapheneOS on Android 14 or newer. Shizuku is recommended for one-tap toggling. Without it, tapping an app opens its permission settings.</p>
+
+<p>Unofficial app, not affiliated with the GrapheneOS project.</p>

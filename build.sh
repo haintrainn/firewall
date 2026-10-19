@@ -9,8 +9,8 @@ BUILD_TOOLS="$SDK/build-tools/37.0.0"
 AAPT2="$(command -v aapt2)" # Termux's native aapt2; the SDK copy is x86_64-only
 MIN_SDK=34
 TARGET_SDK=36
-VERSION_CODE=1
-VERSION_NAME=1.0
+VERSION_CODE=2
+VERSION_NAME=1.1
 
 KEYSTORE="${FIREWALL_KEYSTORE:-signing/firewall.jks}"
 KEY_ALIAS="${FIREWALL_KEY_ALIAS:-firewall}"

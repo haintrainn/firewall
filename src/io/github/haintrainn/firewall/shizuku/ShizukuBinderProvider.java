@@ -1,4 +1,4 @@
-package dev.local.firewall.shizuku;
+package io.github.haintrainn.firewall.shizuku;
 
 import android.content.ContentProvider;
 import android.content.ContentValues;

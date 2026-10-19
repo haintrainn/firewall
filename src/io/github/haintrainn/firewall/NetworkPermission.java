@@ -1,4 +1,4 @@
-package dev.local.firewall;
+package io.github.haintrainn.firewall;
 
 import android.Manifest;
 import android.content.Context;
@@ -14,7 +14,7 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.regex.Pattern;
 
-import dev.local.firewall.shizuku.Shizuku;
+import io.github.haintrainn.firewall.shizuku.Shizuku;
 
 /**
  * GrapheneOS turns android.permission.INTERNET into a runtime permission shown as "Network" in
