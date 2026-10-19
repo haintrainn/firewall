@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Material You tokens from the system palette (follows wallpaper / GrapheneOS theme). -->
+<resources>
+    <color name="fw_background">@android:color/system_surface_container_light</color>
+    <color name="fw_surface_bright">@android:color/system_surface_bright_light</color>
+    <color name="fw_surface_high">@android:color/system_surface_container_high_light</color>
+    <color name="fw_surface_highest">@android:color/system_surface_container_highest_light</color>
+    <color name="fw_on_surface">@android:color/system_on_surface_light</color>
+    <color name="fw_on_surface_variant">@android:color/system_on_surface_variant_light</color>
+    <color name="fw_outline">@android:color/system_outline_light</color>
+    <color name="fw_outline_variant">@android:color/system_outline_variant_light</color>
+    <color name="fw_primary">@android:color/system_primary_light</color>
+    <color name="fw_on_primary">@android:color/system_on_primary_light</color>
+    <color name="fw_primary_container">@android:color/system_primary_container_light</color>
+    <color name="fw_on_primary_container">@android:color/system_on_primary_container_light</color>
+    <color name="fw_secondary_container">@android:color/system_secondary_container_light</color>
+    <color name="fw_on_secondary_container">@android:color/system_on_secondary_container_light</color>
+    <color name="fw_tertiary_container">@android:color/system_tertiary_container_light</color>
+    <color name="fw_on_tertiary_container">@android:color/system_on_tertiary_container_light</color>
+    <color name="fw_error">@android:color/system_error_light</color>
+</resources>

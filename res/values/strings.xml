@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Firewall</string>
+
+    <string name="search_hint">Search apps</string>
+    <string name="more_options">More options</string>
+
+    <string name="filter_all">All</string>
+    <string name="filter_allowed">Allowed</string>
+    <string name="filter_blocked">Blocked</string>
+
+    <string name="summary_allowed">Network access allowed</string>
+    <string name="summary_blocked">Network access blocked</string>
+    <string name="summary_system_suffix">System app</string>
+    <string name="summary_updating">Updating…</string>
+
+    <string name="count_apps">%1$d apps</string>
+    <string name="count_blocked">%1$d blocked</string>
+    <string name="empty_list">No apps match</string>
+
+    <string name="menu_show_system">Show system apps</string>
+    <string name="menu_open_shizuku">Open Shizuku</string>
+    <string name="menu_about">About</string>
+
+    <string name="shizuku_missing_title">Shizuku is needed to change access here</string>
+    <string name="shizuku_missing_summary">GrapheneOS only lets privileged apps change the Network permission. Install Shizuku to toggle apps directly, or tap an app to open its permission settings.</string>
+    <string name="shizuku_missing_action">Get Shizuku</string>
+    <string name="shizuku_stopped_title">Shizuku isn’t running</string>
+    <string name="shizuku_stopped_summary">Start Shizuku with wireless debugging, then come back. Until then, tapping a switch opens that app’s permission settings.</string>
+    <string name="shizuku_stopped_action">Open Shizuku</string>
+    <string name="shizuku_denied_title">Allow Firewall to use Shizuku</string>
+    <string name="shizuku_denied_summary">Firewall uses Shizuku only to run “pm grant” and “pm revoke” for the Network permission.</string>
+    <string name="shizuku_denied_action">Allow</string>
+
+    <string name="open_permissions_hint">Open Permissions → Network to change access for %1$s</string>
+    <string name="change_failed">Couldn’t change %1$s: %2$s</string>
+    <string name="cannot_open">Couldn’t open %1$s</string>
+
+    <string name="confirm_system_title">Block network for %1$s?</string>
+    <string name="confirm_system_message">This is a system app. Blocking its network access can break features such as updates, connectivity checks or location services.</string>
+    <string name="confirm_block">Block</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="about_title">About Firewall</string>
+    <string name="about_message">Firewall is a front end for the GrapheneOS Network permission. When you block an app, its INTERNET permission is revoked and the OS cuts it off from every network. No VPN is used, so it works alongside any VPN.\n\nFirewall has no network access of its own. Changes are made through Shizuku with the shell commands “pm grant” and “pm revoke”, just like the toggle in Settings → Apps → Permissions → Network.</string>
+    <string name="ok">OK</string>
+</resources>
